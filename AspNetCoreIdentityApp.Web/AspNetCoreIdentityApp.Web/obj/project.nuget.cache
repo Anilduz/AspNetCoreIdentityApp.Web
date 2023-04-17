@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7IzOWxzM0UuLDdPDd14JZhKrH7w71vTZ6sPh1cSe4OJvJlyXECjchUkWqfnxPlTrxSYS1LkeLFVkmBkUtZhsg==",
+  "dgSpecHash": "MqQBDozlrArW+wWN03jky2DrgYqzWTEyV3s+Ls9isWS87+JL8nmRrLrxnh4++Zop+lals2Ac1P1phrl2eK26Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aduz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aduz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

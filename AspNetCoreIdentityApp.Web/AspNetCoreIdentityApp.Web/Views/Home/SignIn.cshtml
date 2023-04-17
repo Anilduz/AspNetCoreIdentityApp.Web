@@ -14,21 +14,31 @@
         <h1>Sign In</h1>
         <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert">
         </div>
-        <form asp-controller="Home" asp-action="SignIn" method="post">
+        <form asp-controller="Home" asp-action="SignIn" asp-route-returnUrl="@Context.Request.Query["returUrl"]" method="post">
             <div class="mb-3">
                 <label for="Email" class="form-label" asp-for="Email"></label>
-                <input class="form-control" asp-for="Email">
+                <input <input value="anil_duz1@outlook.com" class="form-control" asp-for="Email">
                 <span class="text-danger" asp-validation-for="Email"></span>
             </div>
             <div class="mb-3">
                 <label for="Password" class="form-label" asp-for="Password"></label>
-                <input asp-for="Password" class="form-control">
+                <input value="1235.hakan" asp-for="Password" type="password" class="form-control">
             </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" asp-for="RememberMe" />
-                <label class="form-check-label" for="RememberMe"asp-for="RememberMe"></label>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" asp-for="RememberMe" />
+                        <label class="form-check-label" for="RememberMe" asp-for="RememberMe"></label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <a class="btn btn-outline-secondary btn-sm float-end" asp-controller="Home" asp-action="ResetPassword"> Şifremi Unuttum</a>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Üye Giriş</button>
-        </form>
-    </div>
+                <button type="submit" class="btn btn-primary">Üye Giriş</button>
+            
+    <div>
+</div>
+    </form>
+</div>
 </div>

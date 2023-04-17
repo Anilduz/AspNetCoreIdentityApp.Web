@@ -14,6 +14,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddIdentityWithExt();
 
+builder.Services.ConfigureApplicationCookie(opt =>
+{
+    var cookieBuilder = new CookieBuilder();
+    cookieBuilder.Name = "UAppCookie";
+
+    opt.LoginPath = new PathString("/Home/Signin");
+    opt.LogoutPath = new PathString("/Member/Logout");
+    opt.Cookie = cookieBuilder;
+    opt.ExpireTimeSpan = TimeSpan.FromDays(60);
+    opt.SlidingExpiration = true;
+});
+
 //builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
@@ -30,7 +42,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

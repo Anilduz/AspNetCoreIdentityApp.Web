@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {}
+    "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {
+    "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
         "projectName": "AspNetCoreIdentityApp.Web",
-        "projectPath": "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
+        "projectPath": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
         "packagesPath": "C:\\Users\\aduz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aduz\\source\\repos\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aduz\\AppData\\Roaming\\NuGet\\NuGet.Config",

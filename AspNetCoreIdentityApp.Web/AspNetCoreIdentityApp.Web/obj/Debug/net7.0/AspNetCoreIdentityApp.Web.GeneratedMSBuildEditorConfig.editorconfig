@@ -9,73 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspNetCoreIdentityApp.Web
 build_property.RootNamespace = AspNetCoreIdentityApp.Web
-build_property.ProjectDir = C:\Users\aduz\source\repos\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\
+build_property.ProjectDir = C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aduz\source\repos\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web
+build_property.MSBuildProjectDirectory = C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Home/UserList.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Home/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/Index.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/Privacy.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/SignIn.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/SignUp.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/Error.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/_NavbarLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/_ViewImports.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/_ViewStart.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zagh54ydho
 
-[C:/Users/aduz/source/repos/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/aduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-796qvdinl8

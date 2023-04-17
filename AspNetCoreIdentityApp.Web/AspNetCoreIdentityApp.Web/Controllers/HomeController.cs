@@ -53,15 +53,23 @@ namespace AspNetCoreIdentityApp.Web.Controllers
                     return View();
                 }
 
-                var signInResult = await _SignInManager.PasswordSignInAsync(hasUser, model.Password, model.RememberMe, false);
+                var signInResult = await _SignInManager.PasswordSignInAsync(hasUser, model.Password, model.RememberMe, true);
 
                 if (signInResult.Succeeded)
                 {
                     return Redirect(returnUrl);
                 }
-                ModelState.AddModelErrorList(new List<string>() { "Email veya şifre yanlış" });
 
+                if (signInResult.IsLockedOut)
+                {
+                    ModelState.AddModelErrorList(new List<string>() { "Çok fazla giriş denemesi yaptınız, 3 dakika boyunca giriş yapamazsınız." });
+                    return View();  
+                }
+
+                ModelState.AddModelErrorList(new List<string>() { $"Email veya şifre yanlış", $"Başarısız giriş sayısı = {await _UserManager.GetAccessFailedCountAsync(hasUser)}" });
                 return View();
+
+
             }
             catch (Exception ex)
             {
@@ -69,6 +77,11 @@ namespace AspNetCoreIdentityApp.Web.Controllers
                 return View();
             }
 
+        }
+
+        public IActionResult ResetPassword()
+        {
+            return View();
         }
 
         [HttpPost]
