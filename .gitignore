@@ -34,5 +34,6 @@ msbuild.err
 msbuild.wrn
 
 .dll
+.editorconfig
 # Visual Studio 2015
 .vs/
