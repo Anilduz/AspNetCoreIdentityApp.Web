@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {}
+    "/Users/anilduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj": {
+    "/Users/anilduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
+        "projectUniqueName": "/Users/anilduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web.csproj",
         "projectName": "AspNetCoreIdentityApp.Web",
-        "projectPath": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web.csproj",
-        "packagesPath": "C:\\Users\\aduz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\obj\\",
+        "projectPath": "/Users/anilduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web.csproj",
+        "packagesPath": "/Users/anilduz/.nuget/packages/",
+        "outputPath": "/Users/anilduz/Documents/GitHub/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/AspNetCoreIdentityApp.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aduz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/anilduz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,25 +41,25 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.6, )"
             }
           },
           "imports": [
@@ -82,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

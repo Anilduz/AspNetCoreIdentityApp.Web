@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{25134C8A-7356-4BAD-936B-DAD6474F8666}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetCoreIdentityApp.Web/appsettings.json">
+    <Files>
+      <File FileName="AspNetCoreIdentityApp.Web/Controllers/MemberController.cs" Line="1" Column="1" />
+      <File FileName="AspNetCoreIdentityApp.Web/Program.cs" Line="1" Column="1" />
+      <File FileName="AspNetCoreIdentityApp.Web/appsettings.json" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AspNetCoreIdentityApp.Web" expanded="True">
+            <Node name="AspNetCoreIdentityApp.Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AspNetCoreIdentityApp.Web PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
