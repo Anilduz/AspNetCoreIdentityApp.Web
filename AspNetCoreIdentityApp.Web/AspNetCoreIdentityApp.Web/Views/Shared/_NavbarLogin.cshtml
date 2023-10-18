@@ -3,10 +3,13 @@
 
     <ul class="navbar-nav me-0">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                 @User.Identity.Name
             </a>
             <ul class="dropdown-menu">
+                <li><a class="dropdown-item" asp-controller="Member" asp-action="Index">Profil</a></li>
+                <li><a class="dropdown-item" asp-controller="Member" asp-action="PasswordChange">Şifre Değiştir</a></li>
+                <li><a class="dropdown-item" asp-controller="Member" asp-action="UserEdit">Kullanıcıyı Güncelle</a></li>
                 <li><a class="dropdown-item" asp-route-returnurl="/Home/Index" asp-controller="Member" asp-action="Logout">Çıkış Yap</a></li>
             </ul>
         </li>

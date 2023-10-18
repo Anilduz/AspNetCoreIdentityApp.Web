@@ -1,0 +1,7 @@
+﻿@if (!User.Identity!.IsAuthenticated)
+{
+    <a class="btn btn-outline-success mx-1" asp-controller="Home" asp-action="SignUp">Üye Kayıt</a>
+    <a class="btn btn-outline-success" asp-controller="Home" asp-action="SignIn">Üye Giriş</a>
+    <a class="btn btn-outline-success" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+
+}

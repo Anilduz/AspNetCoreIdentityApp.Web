@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "RoleUpdate";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
+}
+
+@model AdminModel.RoleUpdateViewModel
+
+
+
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        @if (ViewData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["SuccessMessage"]
+            </div>
+        }
+
+        <form asp-action="RoleUpdate">
+            <h2>Role oluşturma</h2>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden"  asp-for="Id"/>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="güncelle" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+<div>
+    <a asp-action="Index">
+        Back to List
+    </a>
+</div>
+
+@section Scripts {
+    @{
+        Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

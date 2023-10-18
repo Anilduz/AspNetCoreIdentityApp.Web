@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AspNetCoreIdentityApp.Web</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -30,6 +30,7 @@
 
                     </ul>
                     <partial name="_NavbarLogin" />
+                   @* <partial name="_NavbarForgetPass" />*@
                 </div>
                    
                 
@@ -42,15 +43,57 @@
             @RenderBody()
         </main>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - AspNetCoreIdentityApp.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="bg-light text-center text-lg-start">
+        
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer text</h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer text</h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
         </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © @DateTime.Now.Year.ToString() Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>@*
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>*@
+    
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

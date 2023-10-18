@@ -1,5 +1,7 @@
-﻿using AspNetCoreIdentityApp.Web.Areas.Admin.Models;
+﻿using AspNetCoreIdentityApp.Core.Models;
+using AspNetCoreIdentityApp.Web.Areas.Admin.Models;
 using AspNetCoreIdentityApp.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace AspNetCoreIdentityApp.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -23,7 +26,7 @@ public HomeController(UserManager<AppUser> userManager)
         public async Task<IActionResult> UserList()
         {
             var userList =  await _userManager.Users.ToListAsync();
-            var userViewModelList = userList.Select(x => new UserViewModel()
+            var userViewModelList = userList.Select(x => new UserViewListModel()
             {
                 Id = x.Id,
                 Email = x.Email,

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "RoleCreate";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model AdminModel.RoleCreateViewModel
+
+
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form asp-action="RoleCreate">
+            <h2>Role oluşturma</h2>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="oluştur" class="btn btn-primary"/>
+            </div>
+
+        </form>
+    </div>
+    
+</div>
+
+<div>
+    <a asp-area="Admin" asp-controller="Home" asp-action="UserList">
+        Kullanıcı listesine dön
+    </a>
+</div>
+
+@section Scripts {
+    @{Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

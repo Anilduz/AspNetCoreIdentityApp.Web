@@ -1,7 +1,9 @@
 ﻿@{
     ViewData["Title"] = "UserList";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
 }
-@model List<UserViewModel>
+@model List<AdminModel.UserViewListModel>
 <h1>UserList</h1>
 
 
@@ -12,6 +14,7 @@
             <th scope="col">Name</th>
             <th scope="col">Mail</th>
             <th scope="col">Phone</th>
+            <th scope="col">Role İşlemleri</th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +25,8 @@
                 <td>@item.Name</td>
                 <td>@item.Email</td>
                 <td>@item.Phone</td>
+                <td><user-role-names user-id = "@item.Id"></user-role-names></td>
+                <td><a asp-controller="Roles" asp-action="AssignRoleToUser" asp-route-id="@item.Id">Rol Ata</a></td>
             </tr>
         }
     </tbody>

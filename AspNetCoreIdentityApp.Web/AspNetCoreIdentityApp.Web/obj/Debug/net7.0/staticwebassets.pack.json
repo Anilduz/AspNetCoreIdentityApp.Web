@@ -5,12 +5,76 @@
       "PackagePath": "staticwebassets\\AspNetCoreIdentityApp.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\0e1c7eeb-a24b-47ab-9146-ac120197fdcb.jpg",
+      "PackagePath": "staticwebassets\\UserPictures\\0e1c7eeb-a24b-47ab-9146-ac120197fdcb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\0e866c38-8050-42a6-9dad-b28d37c5093d.jpg",
+      "PackagePath": "staticwebassets\\UserPictures\\0e866c38-8050-42a6-9dad-b28d37c5093d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\2a58202c-cf78-4fe4-b03c-8c9ace0e90c0.jpg",
+      "PackagePath": "staticwebassets\\UserPictures\\2a58202c-cf78-4fe4-b03c-8c9ace0e90c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\698705a5-bcdf-4c29-adb1-aac22a8533f6.jpg",
+      "PackagePath": "staticwebassets\\UserPictures\\698705a5-bcdf-4c29-adb1-aac22a8533f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\6a8da512-1a45-49c7-a58c-a357b19bb4f7.jpg",
+      "PackagePath": "staticwebassets\\UserPictures\\6a8da512-1a45-49c7-a58c-a357b19bb4f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\d962b3ae-2139-4307-bb50-18e8fd4ba22e.DOCX",
+      "PackagePath": "staticwebassets\\UserPictures\\d962b3ae-2139-4307-bb50-18e8fd4ba22e.DOCX"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\defaultPicture.png",
+      "PackagePath": "staticwebassets\\UserPictures\\defaultPicture.png"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\e918038d-76fb-4260-a127-8dab94bff5bb.PNG",
+      "PackagePath": "staticwebassets\\UserPictures\\e918038d-76fb-4260-a127-8dab94bff5bb.PNG"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\f3d42aed-4e6c-40ab-b087-1b94f7bdb27f.PNG",
+      "PackagePath": "staticwebassets\\UserPictures\\f3d42aed-4e6c-40ab-b087-1b94f7bdb27f.PNG"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\UserPictures\\fad38e0a-2a97-4e19-91e7-79704ce2cde1.PNG",
+      "PackagePath": "staticwebassets\\UserPictures\\fad38e0a-2a97-4e19-91e7-79704ce2cde1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\css\\product.css",
+      "PackagePath": "staticwebassets\\css\\product.css"
+    },
+    {
       "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\images\\4.pdf",
+      "PackagePath": "staticwebassets\\images\\4.pdf"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\images\\bg.png",
+      "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\images\\bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\images\\bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\images\\bg4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg4.jpg"
     },
     {
       "Id": "C:\\Users\\aduz\\Documents\\GitHub\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\AspNetCoreIdentityApp.Web\\wwwroot\\js\\site.js",
