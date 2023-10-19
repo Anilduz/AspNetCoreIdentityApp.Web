@@ -1,30 +1,40 @@
 using AspNetCoreIdentityApp.Web.Extensions;
 using AspNetCoreIdentityApp.Web.Models;
 using AspNetCoreIdentityApp.Core.OptionModels;
-using AspNetCoreIdentityApp.Web.Services;
+using AspNetCoreIdentityApp.Service.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using AspNetCoreIdentityApp.Core.Models;
-
 internal class Program
 {
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        var services = builder.Services;
+        var configuration = builder.Configuration;
 
+        services.AddAuthentication().AddFacebook(opts =>
+        {
+            opts.AppId = configuration["Authentication:Facebook:AppId"];
+            opts.AppSecret = configuration["Authentication:Facebook:AppSecret"];
+        });
         // Add services to the container.
         builder.Services.AddControllersWithViews();
         builder.Services.AddScoped<IEmailService, EmailService>();
 
         builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
-
+        builder.Services.AddScoped<IMemberService, MemberService>();
         builder.Services.AddDbContext<AppDbContext>(options =>
         {
-            options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"), options => {
+                options.MigrationsAssembly("AspNetCoreIdentityApp.Repository");
+            });
         });
 
         builder.Services.Configure<SecurityStampValidatorOptions>(options=> options.ValidationInterval= TimeSpan.FromMinutes(30));
+
+       
         builder.Services.AddIdentityWithExt();
         builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(Directory.GetCurrentDirectory()));
         builder.Services.ConfigureApplicationCookie(opt =>

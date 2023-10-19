@@ -133,7 +133,7 @@
         </div>
             <div class="mb-3">
                 <label for="Password" class="form-label" asp-for="Password"></label>
-                <input value="1235.hakan" asp-for="Password" type="password" class="form-control">
+                <input value="1235hakan" asp-for="Password" type="password" class="form-control">
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -146,7 +146,8 @@
                     <a class="btn btn-outline-secondary btn-sm float-end" asp-controller="Home" asp-action="ForgetPassword"> Şifremi Unuttum</a>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Üye Giriş</button>
+        <button type="submit" class="btn btn-success btn-block">Üye Giriş</button>
+        <a asp-action="FacebookLogin" type="submit" class="btn btn-primary btn-block">Facebook ile Giriş Yap</a>
         <br />
         <br />
         <div class="text-center"><a href="/Home/Index">Ana Sayfaya Dön</a></div>

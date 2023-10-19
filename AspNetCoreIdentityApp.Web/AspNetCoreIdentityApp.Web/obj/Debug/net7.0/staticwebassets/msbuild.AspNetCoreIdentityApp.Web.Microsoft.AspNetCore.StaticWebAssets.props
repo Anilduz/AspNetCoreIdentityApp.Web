@@ -1152,6 +1152,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UserPictures\6a8da512-1a45-49c7-a58c-a357b19bb4f7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UserPictures\ccb0d036-b88e-44b2-8fef-91ae22a41b43.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AspNetCoreIdentityApp.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AspNetCoreIdentityApp.Web</BasePath>
+      <RelativePath>UserPictures/ccb0d036-b88e-44b2-8fef-91ae22a41b43.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UserPictures\ccb0d036-b88e-44b2-8fef-91ae22a41b43.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UserPictures\d962b3ae-2139-4307-bb50-18e8fd4ba22e.DOCX))">
       <SourceType>Package</SourceType>
       <SourceId>AspNetCoreIdentityApp.Web</SourceId>

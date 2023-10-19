@@ -4,11 +4,12 @@ using AspNetCoreIdentityApp.Web.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using AspNetCoreIdentityApp.Web.Services;
+using AspNetCoreIdentityApp.Service.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Net;
 using System.Text.RegularExpressions;
 using AspNetCoreIdentityApp.Core.Models;
+using System.Security.Claims;
 
 namespace AspNetCoreIdentityApp.Web.Controllers
 {
@@ -16,19 +17,23 @@ namespace AspNetCoreIdentityApp.Web.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<AppUser> _UserManager;
-        private readonly SignInManager<AppUser> _SignInManager;
+        private readonly SignInManager<AppUser> _signInManager;
 
         private readonly IEmailService _emailService;
         public HomeController(ILogger<HomeController> logger, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailService emailService)
         {
             _logger = logger;
             _UserManager = userManager;
-            _SignInManager = signInManager;
+            _signInManager = signInManager;
             _emailService = emailService;
         }
 
         public IActionResult Index()
         {
+            if (User.Identity!.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Member");
+            }
             return View();
         }
         [Authorize]
@@ -59,7 +64,7 @@ namespace AspNetCoreIdentityApp.Web.Controllers
                     return View();
                 }
 
-                var signInResult = await _SignInManager.PasswordSignInAsync(hasUser, model.Password, model.RememberMe, true);
+                var signInResult = await _signInManager.PasswordSignInAsync(hasUser, model.Password, model.RememberMe, true);
 
                 if (signInResult.Succeeded)
                 {
@@ -223,6 +228,69 @@ namespace AspNetCoreIdentityApp.Web.Controllers
             }
             memory.Position = 0;
             return File(memory, "application/pdf", "Demo.pdf");
+        }
+        public IActionResult FacebookLogin(string ReturnUrl)
+        {
+            string RedirectUrl = Url.Action("Response", "Home", new { ReturnUrl })!;
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties("Facebook", RedirectUrl);
+            return new ChallengeResult("Facebook", properties);
+
+        }
+        public async Task<IActionResult> ExternalResponse(string ReturnUrl = "/")
+        {
+            ExternalLoginInfo? info = await _signInManager.GetExternalLoginInfoAsync();
+            if(info == null)
+            {
+                return RedirectToAction("LogIn");
+            }
+            else
+            {
+                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, true);
+
+                if(result.Succeeded)
+                {
+                    return Redirect(ReturnUrl);
+                }
+                else
+                {
+                    AppUser user = new AppUser();
+                    user.Email = info.Principal.FindFirst(ClaimTypes.Email).Value;
+                    string ExternalUserId = info.Principal.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+                    if(info.Principal.HasClaim(x=>x.Type== ClaimTypes.Name))
+                    {
+                        string userName = info.Principal.FindFirst(ClaimTypes.Name).Value;
+                        userName = userName.Replace(' ','-').ToLower() + ExternalUserId.Substring(0,5).ToString();
+                        user.UserName= userName;
+                    }
+                    else
+                    {
+                        user.UserName = info.Principal.FindFirst(ClaimTypes.Email).Value;
+                    }
+
+                    IdentityResult createResult = await _UserManager.CreateAsync(user);
+                    if (createResult.Succeeded)
+                    {
+                        IdentityResult loginResult =  await _UserManager.AddLoginAsync(user, info);
+                        if (loginResult.Succeeded)
+                        {
+                            await _signInManager.SignInAsync(user, true);
+                            return Redirect(ReturnUrl);
+                        }
+                        else
+                        {
+                            ModelState.AddModelErrorList(loginResult.Errors);
+                        }
+                    }
+                    else
+                    {
+                        ModelState.AddModelErrorList(createResult.Errors);
+                    }
+                }
+
+                return RedirectToAction("Error");
+
+            }
         }
 
         [HttpPost]

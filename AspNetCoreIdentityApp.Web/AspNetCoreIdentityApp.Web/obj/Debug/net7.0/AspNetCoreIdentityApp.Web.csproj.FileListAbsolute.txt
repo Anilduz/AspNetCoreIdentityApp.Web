@@ -313,10 +313,8 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
@@ -338,7 +336,6 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\NuGet.Common.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\NuGet.Configuration.dll
@@ -349,7 +346,6 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\NuGet.Versioning.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\System.Composition.AttributedModel.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\System.Composition.Convention.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\System.Composition.Hosting.dll
@@ -455,8 +451,6 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -464,7 +458,6 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\obj\Debug\net7.0\AspNetCoreIdentityApp.Web.csproj.AssemblyReference.cache
@@ -547,3 +540,12 @@ C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.W
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\AspNetCoreIdentityApp.Service.pdb
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\AspNetCoreIdentityApp.Core.pdb
 C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\AspNetCoreIdentityApp.Repository.pdb
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\obj\Debug\net7.0\AspNetCoreIdentityApp.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\aduz\Documents\GitHub\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\AspNetCoreIdentityApp.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Facebook.dll
