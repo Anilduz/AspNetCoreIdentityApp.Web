@@ -8,11 +8,17 @@ using Microsoft.Extensions.FileProviders;
 using AspNetCoreIdentityApp.Core.Models;
 internal class Program
 {
+<<<<<<< Updated upstream
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
         var services = builder.Services;
         var configuration = builder.Configuration;
+=======
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
+    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+});
+>>>>>>> Stashed changes
 
         services.AddAuthentication().AddFacebook(opts =>
         {
